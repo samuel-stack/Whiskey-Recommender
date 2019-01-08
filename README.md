@@ -58,16 +58,17 @@ Hope you enjoy this!
 [Next Steps](6-NextSteps.ipynb)
 - Steps that could be taken to better improve the current model or add more value.
 
-**Other Files**
+**Other Files**  
+
 [Executive Summary](./Executive-Summary.md)]
-- Summary of project process, workflow and analysis.
+- Summary of project process, workflow and analysis.  
 [Data Folder](./Data)
-- Data used for project.
+- Data used for project.  
 [Images Folder](./Images)
-- Images used in project notebooks.
+- Images used in project notebooks.  
 [Chrome Driver](./driver)
-- Chrome Driver used for Selenium.
+- Chrome Driver used for Selenium.  
 [Scotch Presentation](./Scotch-Presentation.pdf)
-- Accompanying Presentation for Project (instructional Purposes)
+- Accompanying Presentation for Project (instructional Purposes)  
 [Scraper Functions](./scrape_lib.py)
-- Functions developed in notebook 1 and used in notebook 2
+- Functions developed in notebook 1 and used in notebook 2  
