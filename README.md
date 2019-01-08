@@ -59,16 +59,20 @@ Hope you enjoy this!
 - Steps that could be taken to better improve the current model or add more value.
 
 **Other Files**  
-
-[Executive Summary](./Executive-Summary.md)]
+[Executive Summary](./Executive-Summary.md)
 - Summary of project process, workflow and analysis.  
+
 [Data Folder](./Data)
 - Data used for project.  
+
 [Images Folder](./Images)
-- Images used in project notebooks.  
+- Images used in project notebooks.
+
 [Chrome Driver](./driver)
 - Chrome Driver used for Selenium.  
+
 [Scotch Presentation](./Scotch-Presentation.pdf)
 - Accompanying Presentation for Project (instructional Purposes)  
+
 [Scraper Functions](./scrape_lib.py)
 - Functions developed in notebook 1 and used in notebook 2  
