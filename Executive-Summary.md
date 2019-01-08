@@ -21,6 +21,14 @@ Once all this was figured out and the appropriate functions were constructed, th
 
 As number of observations gathered and associated amount of information about their item was small, I could store information in RAM, via a `pandas` dataframe, until all was collected.  In hindsight, I wouldn't recommend this 'all or nothing tactic' as this scrape ended up taking about six hours.
 
+**Ethical Considerations**
+- As always when scraping data, it is important to consider ethical dilemmas.  The data data available on most websites is available for personal, private use to the individual accessing it.  With that in mind I believe it to be unethical (and in many situations illegal) to utilize the data for anything but personal. Non-personal use of the data would include using the data would include things like..
+- Using the data for an application.
+- Building a public system that uses their data.
+- Selling their data or building anything with their data and charging a fee.  
+
+- In addition to ethical use of the data acquired, one must also consider the impact on the resources hosting the website.  If you do not already, you should have pauses in your scraper so that it is not making requests to the server as fast as it can.  This will 1. probably get you blocked as they'll immediately determine that a bot is requesting access to the website and 2. overload their resources potentially creating a DDoS because of request overload.
+
 ### Exploratory Data Analysis
 
 I started off by count vectorizing the taste notes data to better understand which words appear the most, the least and what terms have the strongest positive and negative correlations.  Given that the taste notes listed on the website were often 3 to 5 adjectives in a list, the amount of data cleaning and text preprocessing prior to vectorization was very small(No stopword removal, stemmings or lemming needed).
