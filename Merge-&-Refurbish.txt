@@ -1,0 +1,2 @@
+Move contents of this file into same repo with beer recommendations engine. 
+Refurbish both of the recommendations so that code runs in scripted format with Jupyter notebooks being only used as a means of interacting with the recommenders.
